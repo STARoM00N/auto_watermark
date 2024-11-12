@@ -1,3 +1,4 @@
 myenv\Scripts\activate
-pyinstaller --onefile --windowed --icon=logo_buwc.ico --noupx test.py
+pyinstaller --onefile --windowed --icon=logo_buwc.ico --noupx --hidden-import=PyQt5 test.py
+
 
